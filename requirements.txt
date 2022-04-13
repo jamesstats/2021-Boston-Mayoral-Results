@@ -1,3 +1,4 @@
 jupyterlab
 nbclient
 pandas 
+lxml
