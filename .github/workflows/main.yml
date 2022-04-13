@@ -37,5 +37,5 @@ jobs:
 
       - id: jupyter 
         name: Jupyter Notebook Execution
-        run: jupyter execute wards.ipynb
+        run: jupyter execute wards_22.ipynb
         shell: bash  
