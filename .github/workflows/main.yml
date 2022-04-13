@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Boston Wards
+name: Macron vs LePen
 
 # Controls when the workflow will run
 on:
@@ -37,5 +37,5 @@ jobs:
 
       - id: jupyter 
         name: Jupyter Notebook Execution
-        run: jupyter execute wards_22.ipynb
+        run: jupyter execute france_2nd.ipynb
         shell: bash  
