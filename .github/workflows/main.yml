@@ -37,5 +37,5 @@ jobs:
 
       - id: jupyter 
         name: Jupyter Notebook Execution
-        run: jupyter execute france_2nd.ipynb
+        run: jupyter execute Macron_LePen.ipynb
         shell: bash  
