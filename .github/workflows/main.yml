@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Macron vs LePen
+name: 2021 Boston Wards
 
 # Controls when the workflow will run
 on:
@@ -37,5 +37,23 @@ jobs:
 
       - id: jupyter 
         name: Jupyter Notebook Execution
-        run: jupyter execute MaLe.ipynb
+        run: jupyter execute wards_22.ipynb
         shell: bash  
+        
+      - id: commit
+        name: Commit files
+        run:
+          git config --local user.name actions-user
+
+          git config --local user.email "actions@github.com"
+
+          git add ./data.xlsx 
+
+          git commit -am "GH ACTION Headlines $(date)"
+
+          git push origin main
+
+        env:
+          REPO_KEY: ${{secrets.GITHUB_TOKEN}}
+
+          username: github-actions    
