@@ -37,7 +37,7 @@ jobs:
 
       - id: jupyter 
         name: Jupyter Notebook Execution
-        run: jupyter execute wards_22.ipynb
+        run: jupyter execute boston.ipynb
         shell: bash  
         
       - id: commit
