@@ -47,7 +47,7 @@ jobs:
 
           git config --local user.email "actions@github.com"
 
-          git add ./data.xlsx 
+          git add data/.xlsx 
 
           git commit -am "GH ACTION Headlines $(date)"
 
