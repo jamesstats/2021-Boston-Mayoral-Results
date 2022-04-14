@@ -47,11 +47,11 @@ jobs:
 
           git config --local user.email "actions@github.com"
 
-          git add data/.xlsx 
+          git add data/* 
 
           git commit -am "GH ACTION Headlines $(date)"
 
-          git push origin main
+          git push  
 
         env:
           REPO_KEY: ${{secrets.GITHUB_TOKEN}}
