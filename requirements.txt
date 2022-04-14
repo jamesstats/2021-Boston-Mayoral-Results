@@ -1,4 +1,0 @@
-jupyterlab
-nbclient
-pandas 
-tabula-py
