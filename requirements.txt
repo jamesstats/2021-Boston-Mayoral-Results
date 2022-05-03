@@ -2,3 +2,4 @@ jupyterlab
 nbclient
 pandas 
 lxml 
+tabula
