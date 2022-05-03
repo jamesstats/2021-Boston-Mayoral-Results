@@ -1,0 +1,4 @@
+jupyterlab
+nbclient
+pandas 
+lxml 
