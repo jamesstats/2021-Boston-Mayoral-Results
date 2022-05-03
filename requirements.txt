@@ -2,4 +2,4 @@ jupyterlab
 nbclient
 pandas 
 lxml 
-tabula
+tabula-py
